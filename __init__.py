@@ -1,1 +1,1 @@
-""" Bobby B Bot utilities module """
+""" Kendall Roy Bot utilities module """

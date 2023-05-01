@@ -24,7 +24,23 @@ def get_env(env_key, filepath):
     except Exception as e:
         return e
     
-def get_random_quote():
+def get_random_quote_1():
+    """ Returns random quote from quotes file"""
+
+    with open('../utils/quotes.json', 'r') as quotes:
+        bobbyb_quotes = json.load(quotes)
+    
+    return random.choice(bobbyb_quotes + /n)
+    
+def get_random_quote_2():
+    """ Returns random quote from quotes file"""
+
+    with open('../utils/quotes.json', 'r') as quotes:
+        bobbyb_quotes = json.load(quotes)
+    
+    return random.choice(bobbyb_quotes + /n)
+    
+def get_random_quote_3():
     """ Returns random quote from quotes file"""
 
     with open('../utils/quotes.json', 'r') as quotes:
